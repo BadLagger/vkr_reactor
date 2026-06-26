@@ -1,0 +1,12 @@
+{
+    "uds_predictor_path": "/var/run/metrics_predictor.sock",
+    "uds_socket_path": "/var/run/metrics_reactor.sock",
+    "poll_interval_seconds": 5,
+    "buffer_size": 1000,
+    "alert": {
+        "temperature_threshold": 90.0,
+        "check_interval_seconds": 5,
+        "alert_cooldown_seconds": 60
+    },
+    "log_file": "/var/log/reactor.log"
+}
